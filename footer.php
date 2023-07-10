@@ -5,13 +5,13 @@
         <a href="#" class="footer__logo"><?php insertImage('/footer-logo.png'); ?></a>
         <ul class="footer__menu">
           <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">About Us</a>
+            <a href="#about" class="footer__menu-link">About Us</a>
           </li>
           <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">Services</a>
+            <a href="#services" class="footer__menu-link">Services</a>
           </li>
           <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">Reviews</a>
+            <a href="#reviews" class="footer__menu-link">Reviews</a>
           </li>
         </ul>
         <div class="footer__btn-wrapper">

@@ -22,16 +22,16 @@
 				<nav class="header__menu menu">
 					<ul class="menu__list">
 						<li class="menu__item">
-							<a href="#" class="menu__link">About Us</a>
+							<a href="#about" class="menu__link">About Us</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Services</a>
+							<a href="#services" class="menu__link">Services</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Reviews</a>
+							<a href="#reviews" class="menu__link">Reviews</a>
 						</li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Contact Us</a>
+							<a href="#contact-us" class="menu__link">Contact Us</a>
 						</li>
 					</ul>
 				</nav>

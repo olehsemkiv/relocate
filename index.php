@@ -13,7 +13,7 @@
             <?php insertImage('/hero-bg.jpg'); ?>
         </div>
     </section>
-    <section class="section-about">
+    <section id="about" class="section-about">
         <div class="site-container">
             <div class="section-about__wrapper">
                 <h2 class="section-about__title title-l">ABout Us</h2>
@@ -23,7 +23,7 @@
             </div>
         </div>
     </section>
-    <section class="section-services">
+    <section id="services" class="section-services">
         <div class="site-container">
             <div class="section-services__wrapper">
                 <h1 class="section-services__title title-l">our services</h1>
@@ -118,7 +118,7 @@
             </div>
         </div>
     </section>
-    <section class="section-reviews">
+    <section id="reviews" class="section-reviews">
         <div class="site-container">
             <div class="section-reviews__wrapper">
                 <h2 class="section-reviews__title title-l title-l_light">testimonials </h2>
@@ -227,7 +227,7 @@
             </div>
         </div>
     </section>
-    <section class="section-form">
+    <section id="contact-us" class="section-form">
         <div class="site-container">
             <div class="section-form__wrapper">
                 <h2 class="section-form__title title-l title-l_light">Contact us</h2>

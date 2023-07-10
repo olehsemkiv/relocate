@@ -5,11 +5,16 @@
 @import "pages/main";
 @import "blocks/main";
 
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans";
     font-size: 16px;
     color: #3A4E64;
-
 
     &._lock {
         overflow: hidden;

@@ -111,7 +111,12 @@
         background: rgba(58, 78, 100, 0.12);
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.2s ease-out;
+        transition: all 0.2s ease;
+        text-align: justify;
+
+        &.active {
+            padding: 20px 50px;
+        }
     }
 
     .active,

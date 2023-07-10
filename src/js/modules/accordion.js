@@ -1,20 +1,19 @@
-export default function example() {
+export default function accordion() {
 
-    let acc = document.getElementsByClassName("section-accordion__accordion");
-    let i;
+    let acc = document.querySelectorAll(".section-accordion__accordion");
 
-    if (acc) {
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
-    }
+    if (!acc) return;
 
+    acc.forEach(el => {
+        el.addEventListener('click', function () {
+            this.classList.toggle("active");
+            let panel = this.nextElementSibling;
+            panel.classList.toggle("active");
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + 40 + "px";
+            }
+        })
+    })
 }

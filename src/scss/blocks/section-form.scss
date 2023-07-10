@@ -1,0 +1,57 @@
+.section-form {
+    padding: 50px 0;
+    background: #3A4E64;
+
+    @media (max-width: 767px) {
+        padding: 30px 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 160px;
+        flex-wrap: wrap;
+
+        @media (max-width: 767px) {
+            gap: 50px;
+        }
+    }
+
+    &__title {
+        width: calc(35% - 80px);
+        text-align: center;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__form-wrapper {
+        width: calc(65% - 80px);
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: -80px;
+            top: 0;
+            width: 3px;
+            height: 100%;
+            background-color: #fff;
+
+            @media (max-width: 767px) {
+                width: 50%;
+                height: 3px;
+                top: -40px ;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__form {}
+}

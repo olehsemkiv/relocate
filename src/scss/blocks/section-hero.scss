@@ -1,0 +1,28 @@
+.section-hero {
+    position: relative;
+    padding: 270px 0;
+
+    @media (max-width: 991px) {
+        padding: 200px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 150px 0;
+    }
+
+    &__wrapper {
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        margin-bottom: 45px;
+        width: 100%;
+        max-width: 720px;
+    }
+}

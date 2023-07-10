@@ -1,0 +1,17 @@
+.git/
+.git/*
+.git/**/*
+
+.vscode/
+.vscode/*
+.vscode/**/*
+
+dist/
+dist/*
+dist/**/*
+
+node_modules/
+node_modules/*
+node_modules/**/*
+
+.DS_Store

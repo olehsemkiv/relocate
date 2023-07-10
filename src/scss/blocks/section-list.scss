@@ -1,0 +1,119 @@
+.section-list {
+    padding: 50px 0;
+    background: rgba(35, 150, 127, 0.14);
+
+    @media (max-width: 767px) {
+        padding: 30px 0;
+    }
+
+    &__wrapper {}
+
+    &__title {
+        text-align: center;
+        margin-bottom: 100px;
+
+        @media (max-width: 767px) {
+            margin-bottom: 50px;
+        }
+    }
+
+    &__body {
+        display: flex;
+        gap: 120px;
+
+        @media (max-width: 991px) {
+            gap: 80px;
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__positive {
+        width: calc(50% - 60px);
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -60px;
+            height: 100%;
+            width: 3px;
+            background-color: #3A4E64;
+
+            @media (max-width: 991px) {
+                right: -40px;
+            }
+
+            @media (max-width: 767px) {
+                top: auto;
+                bottom: -40px;
+                left: 0;
+                height: 3px;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__list-title {
+        color: #3A4E64;
+        font-family: "Bebas Neue";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.68px;
+        margin-bottom: 30px;
+
+        @media (max-width: 991px) {
+            font-size: 36px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 28px;
+        }
+    }
+
+    &__list {
+        list-style: disc;
+        padding-left: 30px;
+    }
+
+    &__list-item {
+        list-style: disc;
+        color: #3A4E64;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 105.99%;
+        letter-spacing: 0.7px;
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 18px;
+        }
+    }
+
+    &__negative {
+        width: calc(50% - 60px);
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+}
+
+.site-container {}
+
+.title-l {
+
+    &_green {}
+}

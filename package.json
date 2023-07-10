@@ -1,0 +1,53 @@
+{
+  "name": "landing-name",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "./src/js/app.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "author": "Oleg Barylko",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "~7.7.2",
+    "@babel/plugin-syntax-dynamic-import": "~7.2.0",
+    "@babel/preset-env": "~7.7.1",
+    "autoprefixer": "~9.7.1",
+    "babel-eslint": "~10.0.3",
+    "babel-loader": "~8.0.6",
+    "browser-sync": "~2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "bs-html-injector": "~3.0",
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-globs-webpack-plugin": "^0.3.0",
+    "copy-webpack-plugin": "^6.0.0",
+    "css-loader": "^3.2.0",
+    "css-minimizer-webpack-plugin": "^1.0.0",
+    "file-loader": "^4.3.0",
+    "import-glob": "~1.5",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "~4.14.0",
+    "postcss-loader": "~3.0.0",
+    "postcss-safe-parser": "~4.0.1",
+    "prettier": "^2.8.4",
+    "sass-loader": "~8.0.0",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "~3.3.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "~7.7.0",
+    "@internet/raf": "^0.2.1",
+    "bowser": "^2.7.0",
+    "libphonenumber-js": "^1.7.26",
+    "node-sass-glob-importer": "^5.3.2",
+    "plyr": "^3.7.2",
+    "swiper": "^8.2.5",
+    "terser-webpack-plugin": "4.2.3",
+    "webpack": "^4.41.2",
+    "workbox-webpack-plugin": "^5.0.0"
+  }
+}
